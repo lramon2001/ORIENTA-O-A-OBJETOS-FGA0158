@@ -5,6 +5,7 @@
  */
 package com.lucasramon.listaderevisaodeprogramacao.helloword;
 
+import java.util.Scanner;
 import javax.swing.JOptionPane;
 
 /**
@@ -13,7 +14,7 @@ import javax.swing.JOptionPane;
  */
 public class Main1 {
 
-    /**
+   /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
@@ -21,8 +22,5 @@ public class Main1 {
        HelloWorld hw= new HelloWorld();
        hw.obtemInfo();
        hw.resposta();
-        
-      
     }
-    
 }
